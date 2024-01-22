@@ -2,11 +2,10 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  width: 400px;
-  margin: 0 auto;
+
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(12, 12, 12, 0.87);
   background-color: #ebebeb;
 
   font-synthesis: none;
@@ -15,3 +14,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html  {
+  width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.containerEtapa{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerBox{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.squareButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(219, 219, 219);
+  border-radius: 8px;
+  height: 180px;
+  margin: 5px;
+  width: 47%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.squareButton:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 55, 87);
+  transition: 0.3s ease-in-out;
+}
+
+.squareButton img{
+  width: 130px;
+}
+
+.squareButton h3{
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.logo_main{
+    display: flex;
+    justify-content: center;
+}
+
+.logo_main img{
+    margin-top: 20px;
+    width: 40%;
+}

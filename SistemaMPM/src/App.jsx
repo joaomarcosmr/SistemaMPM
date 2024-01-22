@@ -1,14 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
+ // components
+import Logo from './components/logo'
+import Progresso from './components/Progresso'
+
+// pages
+import Etapa1 from './pages/ETAPA1/etapa1'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div><h1>AAA</h1></div>
+      <Logo/>
+      <Progresso/>
+      <Etapa1/>
     </>
   )
 }
