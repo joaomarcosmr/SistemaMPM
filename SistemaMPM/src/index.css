@@ -36,6 +36,10 @@ html  {
   height: 90px !important;
 }
 
+.optionHeight140{
+  height: 120px !important;
+}
+
 .optionHeight p{
   text-align: center;
 }
@@ -58,6 +62,10 @@ html  {
 
 .d-flex{
   display: flex;
+}
+
+.w-50{
+  width: 50%;
 }
 
 .squareButton{
