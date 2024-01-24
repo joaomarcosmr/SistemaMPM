@@ -17,6 +17,9 @@ import Etapa8 from './pages/ETAPA8/Etapa8'
 import Etapa9 from './pages/ETAPA9/Etapa9'
 import Etapa10 from './pages/ETAPA10/Etapa10'
 import Etapa11 from './pages/ETAPA11/Etapa11'
+import Etapa12 from './pages/ETAPA12/Etapa12'
+import Etapa13 from './pages/ETAPA13/Etapa13'
+import Analise1 from './pages/ETAPA14_ANALISE/Analise1'
 
 function App() {
 
@@ -25,7 +28,7 @@ function App() {
       <Logo/>
       <Progresso/>
       {/* <Etapa1/> */}
-      <Etapa11/>
+      <Analise1/>
     </>
   )
 }
