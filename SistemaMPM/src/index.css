@@ -64,6 +64,10 @@ html  {
   display: flex;
 }
 
+.content-spaced{
+  justify-content: space-around;
+}
+
 .w-50{
   width: 50%;
 }
