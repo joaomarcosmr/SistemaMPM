@@ -68,17 +68,18 @@ const Resultado1 = () => {
         <div className='grafico'>
             <Line data={data} options={options} className='left'/>
             <span className='texto-grafico0 text-center'>Você está <br/> aqui!</span>
+            <span className='texto-grafico01'></span>
             <span className='texto-grafico1 text-center'>Fase de <br/> Estudos</span>
             <span className='texto-grafico2 text-center'>Primeiros <br/> resultados</span>
             <span className='texto-grafico3 text-center'>Resultados Expressivos</span>
         </div>
         <div>
             <div className='title'>
-                <h3>(Emoji fogo) Seu plano exclusivo está pronto!</h3>
-                <p>Análisamos todas suas necessidades e criamos um plano personalizado para você. Nossa previsão é que você já terá resultados em março de 2024.</p>
+                <h3>🔥 Seu plano exclusivo está pronto!</h3>
+                <p>Análisamos todas suas necessidades e criamos um plano personalizado para você. Nossa previsão é que você já terá resultados em <strong><u>março de 2024.</u></strong></p>
             </div>
             <div>
-                <button>Continuar</button>
+                <button className='btn'>Continuar</button>
             </div>
         </div>
     </div>

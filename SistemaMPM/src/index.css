@@ -132,7 +132,7 @@ html  {
 .grafico{
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 60px 60px 20px 60px;
+  padding: 60px 20px 20px 20px;
   margin-top: 10px;
   margin-left: 3px;
 }
@@ -146,12 +146,24 @@ html  {
   background-color: black;
   color: white;
   padding: 6px;
-  border-radius: 15px 15px 0px 15px;
+  border-radius: 15px 15px 15px 15px;
   position: absolute;
-  top: 62%;
+  z-index: 9999;
+  top: 56%;
   left: 14%;
   transform: translate(-50%, -50%);
 }
+
+.texto-grafico01 {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 63%;
+  left: 11%;
+  transform: rotate(45deg) translate(-50%, -50%);
+}
+
 
 .texto-grafico1{
   position: absolute;
@@ -161,8 +173,8 @@ html  {
   padding: 6px;
   border-radius: 15px 15px 0px 15px;
   position: absolute;
-  top: 53%;
-  left: 34%;
+  top: 52%;
+  left: 32%;
   transform: translate(-50%, -50%);
 }
 
@@ -175,7 +187,7 @@ html  {
   border-radius: 15px 15px 0px 15px;
   position: absolute;
   top: 38%;
-  left: 54%;
+  left: 56%;
   transform: translate(-50%, -50%);
 }
 
@@ -189,12 +201,39 @@ html  {
   position: absolute;
   width: 58px;
   top: 20%;
-  left: 74%;
+  left: 80%;
   transform: translate(-50%, -50%);
 }
 
 .title{
   background-color: #EAFCFF;
   margin-top: 15px;
-  padding: 5px 40px 5px 40px;
+  margin-bottom: 15px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title h3{
+  font-size: 14px;
+}
+
+.title p{
+  font-size: 12px;
+}
+
+.btn{
+  background-color: #2B8BFF;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #0070f8;
+  transition: 0.4s;
 }
