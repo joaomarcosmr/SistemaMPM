@@ -249,6 +249,7 @@ html  {
   background-color: #F6F6F6;
   display: flex;
   width: 400px;
+  margin-bottom: 10px;
 }
 
 .resultados-imagem{
@@ -290,4 +291,20 @@ html  {
 
 .resultados-imagem{
   display: flex;
+}
+
+.pagamento{
+  display: relative;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.pagamento-seguro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: #EBFCF4;
+  margin-top: 5px;
+  padding: 10px;
 }

@@ -40,6 +40,14 @@ const Checkout = () => {
                 </div>
             </div>
         </div>
+        <div className='pagamento'>
+            <button className='btn'>
+                Começar agora!
+            </button>
+            <div className='pagamento-seguro'>
+                <span>✅ Pagamento 100% seguro</span>
+            </div>
+        </div>
     </div>
   )
 }
