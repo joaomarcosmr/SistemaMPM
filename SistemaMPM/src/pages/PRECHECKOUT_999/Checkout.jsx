@@ -17,10 +17,22 @@ const Checkout = () => {
             </div>
             <div className='resultados-imagem'>
                 <div className='antes'>
-
+                    <img src="..\src\img\checkout_age4.png" alt="" />
                 </div>
                 <div className='depois'>
-
+                    <img src="..\src\img\after_checkout_age4.png" alt="" />
+                </div>
+            </div>
+            <div className='resultados-titulo'>
+                <div className='antes text-center'>
+                    <span>Suas habilidades de investimento</span>
+                    <div className='progresso-inicio'></div>
+                    <span className='danger'>Baixo nível de conhecimento</span>
+                </div>
+                <div className='depois text-center'>
+                    <span>Suas habilidades <br/> depois de 3 meses</span>
+                    <div className='progresso-final'></div>
+                    <span className='success'>Pronto pra ter muito sucesso</span>
                 </div>
             </div>
         </div>

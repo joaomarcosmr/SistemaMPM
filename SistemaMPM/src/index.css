@@ -240,12 +240,26 @@ html  {
 
 
 .resultados{
-  border: 1px solid black;
+  background-color: #F6F6F6;
+  border-radius: 8px;
+  border: 1px solid rgb(180, 180, 180);
 }
 
 .resultados-titulo{
+  background-color: #F6F6F6;
   display: flex;
   width: 400px;
+}
+
+.resultados-imagem{
+  background-image: url(../src/img/transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.antes img,
+.depois img{
+  margin-bottom: -5px;
 }
 
 .antes{
@@ -257,5 +271,5 @@ html  {
 }
 
 .resultados-imagem{
-  height: 30vh;
+  display: flex;
 }
