@@ -25,14 +25,18 @@ const Checkout = () => {
             </div>
             <div className='resultados-titulo'>
                 <div className='antes text-center'>
-                    <span>Suas habilidades de investimento</span>
+                    <span>Suas habilidades <br/> de investimento</span>
                     <div className='progresso-inicio'></div>
-                    <span className='danger'>Baixo nível de conhecimento</span>
+                    <div className='danger'>
+                        ⚠️ Baixo nível de conhecimento
+                    </div>
                 </div>
                 <div className='depois text-center'>
                     <span>Suas habilidades <br/> depois de 3 meses</span>
                     <div className='progresso-final'></div>
-                    <span className='success'>Pronto pra ter muito sucesso</span>
+                    <div className='success'>
+                        ✅ Pronto pra ter <br/> muito sucesso
+                    </div>
                 </div>
             </div>
         </div>
